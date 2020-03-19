@@ -1,0 +1,35 @@
+.AdditionListMobile {
+	background: #FFFFFF;
+
+	&__image-wrapper {
+		margin-bottom: 10px;
+	}
+
+	&__item-image {
+		width: 136px;
+		height: 136px;
+		border-radius: 6px;
+		position: relative;
+	}
+
+	&__item-title-wrapper {
+
+	}
+
+	&__item-title {
+		font-size: 15px;
+		line-height: 20px;
+		display: inline-block;
+		max-width: 136px;
+		white-space: normal;
+		max-height: 40px;
+		overflow: hidden;
+		color: #000;
+	}
+
+	&__item-price {
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 22px;
+	}
+}

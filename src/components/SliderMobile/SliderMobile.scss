@@ -1,0 +1,37 @@
+.SliderMobile {
+	position: relative;
+	
+	&__list {
+		overflow: auto;
+		white-space: nowrap;
+		padding-bottom: 20px;
+
+		&::-webkit-scrollbar {
+			display: none;
+		}
+	}
+
+	&__item {
+		display: inline-block;
+		vertical-align: top;
+		margin-right: 12px;
+
+		&:first-child {
+			padding-left: 16px;
+		}
+
+		&:last-child {
+			margin-right: 16px;
+		}
+	}
+
+	&__scroll-hide {
+		width: 100%;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		height: 20px;
+		background: #FFF;
+		z-index: 1;
+	}
+}
